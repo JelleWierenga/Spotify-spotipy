@@ -2,7 +2,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 scope = "playlist-modify-public user-top-read"
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope, client_id="5b63b950a9f044cea897cee42058a03a", client_secret="6d71049f669a4908b4943582e905efcb   ", redirect_uri="http://localhost:8888/callback"))
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope, client_id="Client_id", client_secret="Client_secret   ", redirect_uri="http://localhost:8888/callback"))
 
 playlist_name = "My Top 10 Tracks"
 playlist_description = "A playlist of my top 10 most listened tracks"
